@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#main_container {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#game_name {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+    width: 300px;
+    margin: auto;
+}
+b {
+    visibility: hidden;
+}
+
+#score {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#main_container div span {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.first_row span:nth-child(1) {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.first_row span:nth-child(2) {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.first_row span:nth-child(3) {
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.second_row span:nth-child(1) {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.second_row span:nth-child(2) {
+    border: 1px solid white;
+}
+.second_row span:nth-child(3) {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.third_row span:nth-child(1) {
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+.third_row span:nth-child(2) {
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.third_row span:nth-child(3) {
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}

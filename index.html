@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">    
+</head>
+<body>
+    <h1 id="game_name">Tic Tac Game</h1>
+
+    <div id="main_container">
+        <div class="first_row">
+            <span class="tic_tac_access" id="00" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span class="tic_tac_access" id="01" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span class="tic_tac_access" id="02" onclick="ticTac(this)"> 
+                <b>a</b>
+            </span>
+        </div>
+        <div class="second_row">
+            <span id="10" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span id="11" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span id="12" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+        </div>
+        <div class="third_row">
+            <span id="20" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span id="21" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+            <span id="22" onclick="ticTac(this)">
+                <b>a</b>
+            </span>
+        </div>
+    </div>
+
+    <h1 id="score">
+        Score: <span id="score_count">0</span>
+    </h1>
+</body>
+<script src="script.js"></script>
+</html>
