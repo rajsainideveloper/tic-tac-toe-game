@@ -55,9 +55,8 @@ function applyColer(id_1, id_2, id_3) {
     document.getElementById(id_1).style.backgroundColor = 'green';
     document.getElementById(id_2).style.backgroundColor = 'green';
     document.getElementById(id_3).style.backgroundColor = 'green'; 
-    
-    console.log("sss");
-    document.getElementById('score_count').innerText = score;
+
+    // document.getElementById('score_count').innerText = score;
     setTimeout(function(){
         for( let i=0; i<ticTacArray.length; i++) {
             for( let j=0; j<ticTacArray.length; j++) {
